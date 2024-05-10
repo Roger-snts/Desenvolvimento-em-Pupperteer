@@ -1,0 +1,14 @@
+{
+  "name": "primeiro_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mr_Sr",
+  "license": "ISC",
+  "description": "Primeiro bot em Puppeteer",
+  "dependencies": {
+    "puppeteer": "^22.8.0"
+  }
+}

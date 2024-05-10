@@ -25,7 +25,7 @@ const puppeteer = require('puppeteer');
 
     delay(3000);
 
-    await pagina.click('span[title="João Felipe"]'); // Seleciona uma conversa através do nome da pessoa/grupo
+    await pagina.click('span[title="Nome do Contato"]'); // Seleciona uma conversa através do nome da pessoa/grupo
 
     await pagina.type('#main > footer > div._ak1k._ahmw.copyable-area > div > span:nth-child(2) > div > div._ak1r > div._ak1l','Essa mensagem foi enviada através de um Bot de Whatsapp!');                                      // Seleciona o campo de escrever mensagens e digita a mensagem seguinte
 
